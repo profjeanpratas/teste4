@@ -1,0 +1,88 @@
+header{
+    background-color: #3EB3F2;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px; 
+    font-family: outifit;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.acesso{
+    position:relative;
+
+}
+.aluno{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    margin: auto;
+}
+.prof{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 950px;
+    top: 150px;
+    margin: auto;
+
+}
+.triagem{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 300px;
+    top: 150px;
+    margin: auto;
+}
+.al2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 320px;
+    top: 250px;
+}
+.prof2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 940px;
+    top: 250px;
+}
+.tri2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 285px;
+    top: 250px;
+}
+.form_cadastro{
+    padding: 50px;
+    position: absolute;
+    top: 350px;
+    right: 700px;
+    background-color: #3EB3F2;
+    border-radius: 50px;
+    width: 500px;
+}
+.cad1{
+    text-align: center;
+    color: aliceblue;
+}
+label{
+    display: block;
+}
+input[type="text"], input[type="email"],input[type="number"],input[type="password"],textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+input[type="subimit"]{
+    border: 1px #3EB3F2;
+}

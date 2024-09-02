@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<header>ACESSO</header>
+<body>
+
+   <div class="icones">
+      <a href="aluno.html"> <img class="aluno" src="img/aluno.png" alt=""></a>
+       <a href="prof.html"><img class="prof" src="img/prof.png" alt=""></a>
+       <a href="triagem.html"><img class="triagem" src="img/triagem.png" alt=""></a>
+       <p class="al2">ALUNO</p>
+       <p class="prof2">PROFESSOR</p>
+       <p class="tri2">TRIAGEM</p>
+    </div>
+
+    <div class="form_cadastro">
+        <h1 class="cad1">Cadastre-se</h1>
+        <form action="/enviar" method="post">
+
+            <label for="atividade">Cadastro para:</label>
+            <select name="atividade" id="atividade">
+                <option value="//">Professor</option>
+                <option value="//">Aluno</option>
+                <option value="//">Funcionario</option>
+            </select>
+            <br>
+            <label for="nome">Nome:</label>
+            <input type="text">
+            <br>
+            <label for="matricula">Matricula</label>
+            <input type="number">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="senha">Senha</label>
+            <input type="password">
+            <br>    
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+</body>
+</html>
